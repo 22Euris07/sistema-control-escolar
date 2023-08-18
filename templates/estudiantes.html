@@ -1,0 +1,25 @@
+<h1>Estudiantes</h1>
+<a href="/">Inicio</a>
+<table>
+    <thead>
+        <tr>
+            <th>Matricula</th>
+            <th>Nombre</th>
+            <th>Apellido Paterno</th>
+            <th>Apellido Materno</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for estudiantes in data %}
+        <tr>
+            <td>{{estudiantes["Matricula"]}}</td>
+            <td>{{estudiantes["Nombre"]}}</td>
+            <td>{{estudiantes["Apellido_Paterno"]}}</td>
+            <td>{{estudiantes["Apellido_Materno"]}}</td>
+        </tr>
+
+        {% endfor %}
+    
+    
+    </tbody>
+</table>
