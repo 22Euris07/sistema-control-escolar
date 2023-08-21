@@ -10,16 +10,15 @@
         </tr>
     </thead>
     <tbody>
-        {% for estudiantes in data %}
+        {% for Estudiantes in estudiantes %}
         <tr>
-            <td>{{estudiantes["Matricula"]}}</td>
-            <td>{{estudiantes["Nombre"]}}</td>
-            <td>{{estudiantes["Apellido_Paterno"]}}</td>
-            <td>{{estudiantes["Apellido_Materno"]}}</td>
+            <td>{{estudiante.matricula}}</td>
+            <td>{{estudiante.nombre}}</td>
+            <td>{{estudiante.apellido_paterno}}</td>
+            <td>{{estudiante.apellido_materno}}</td>
         </tr>
 
         {% endfor %}
-    
     
     </tbody>
 </table>
