@@ -16,7 +16,7 @@ def estudiantes():
             estudiantes.append(Estudiante(data[0], data[1], data[2], data[3]))
             print(estudiantes)
 
-    return render_template("estudiantes.html", estudiante=estudiantes)
+    return render_template("estudiantes.html", estudiantes=estudiantes)
 
 
 if __name__ == '__main__':
