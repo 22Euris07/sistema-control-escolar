@@ -1,0 +1,26 @@
+<h1>Profesores</h1>
+<a href="/">Inicio</a>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Matricula</th>
+            <th>Materia</th>
+            <th>Salón</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for profesores in profesores %}
+        <tr>
+            <td>{{profesores.nombre}}</td>
+            <td>{{profesores.matricula}}</td>
+            td>{{profesores.materia}}</td>
+            <td>{{profesores.salón}}</td>
+        </tr>
+        {% endfor %}
+    
+    
+    </tbody>
+</table>

@@ -1,0 +1,5 @@
+Daniela Anaya|250089|Matematicas para Ingenieria|B102
+Gerardo Mathus|250091|Programacion Orientada a Objetivos|B105
+Gerardo Mathus|250091|Analisis y Diseño de Software|B105
+Sebastian Mathus|250092|Experiencia de Usuario|B110
+Daniela Anaya|250089|Fisica para Ingenieria|B102
