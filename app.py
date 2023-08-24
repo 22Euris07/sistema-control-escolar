@@ -19,11 +19,8 @@ def estudiantes():
     return render_template("estudiantes.html", estudiantes=estudiantes)
 
 
-from flask import Flask, render_template
+
 from entidades.materias import Materia
-app = Flask(__name__)
-
-
 @app.route("/materias")
 def materias():
     materias = []
