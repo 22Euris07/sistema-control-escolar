@@ -31,7 +31,7 @@ def materias():
         lines = f.read().splitlines()
         for l in lines:
             data = l.split("|")
-            materias.append(materias(data[0], data[1], data[2]))
+            materias.append(Materia(data[0], data[1], data[2]))
             print(materias)
 
     return render_template("materias.html", materias=materias)
