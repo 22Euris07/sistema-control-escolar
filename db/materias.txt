@@ -1,0 +1,5 @@
+Matematicas_para_Ingenieria|Daniela_Anaya|B102
+Programacion_Orientada_a_Objetivos|Gerardo_Mathus|B105
+Analisis_y_Diseño_de_Software|Gerardo_Mathus|B105
+Experiencia_de_Usuario|Sebastian_Mathus|B110
+Fisica_para_Ingenieria|Daniela_Anaya|B102

@@ -18,6 +18,18 @@ def estudiantes():
 
     return render_template("estudiantes.html", estudiantes=estudiantes)
 
+@app.route("/materias")
+def materias():
+    materias = []
+    with open("db/materias.txt", "r") as f:
+        lines = f.read().splitlines()
+        for l in lines:
+            data = l.split("|")
+            materias.append(materias(data[0], data[1], data[2]))
+            print(materias)
+
+    return render_template("materias.html", materias=materias)
+
 
 if __name__ == '__main__':
     app.run(debug=True, port=8888)

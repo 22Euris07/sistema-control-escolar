@@ -11,11 +11,11 @@
         </tr>
     </thead>
     <tbody>
-        {% for Materias in data %}
+        {% for materia in materias %}
         <tr>
-            <td>{{Materias["Materia"]}}</td>
-            <td>{{Materias["Profesor"]}}</td>
-            <td>{{Materias["Salón"]}}</td>
+            <td>{{materia.materia}}</td>
+            <td>{{materia.profesor}}</td>
+            <td>{{materia.salón}}</td>
         </tr>
         {% endfor %}
     
